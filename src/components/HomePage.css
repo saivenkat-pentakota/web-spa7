@@ -7,6 +7,13 @@
     background-size: cover;
 }
 
+.home-page .img-fluid{
+    padding-top: 40px;
+    height:auto;
+    max-width:550px;
+
+}
+
 .home-page::before {
     position: absolute;
     content: "";
@@ -14,8 +21,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, .1);
-    clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
+
 }
 
 .home-page .container {

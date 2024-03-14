@@ -2,15 +2,24 @@ import React from "react";
 import "./HomePage.css";
 import shampooImg from '../images/shampoo.png';
 import NavBar from "./NavBar";
+import AboutProduct from "./AboutProduct";
+import ProductDeal from "./ProductDeal";
+import ProductBenefits from "./productBenefits";
+import HowToUseProduct from "./HowtoUseProduct";
+import OtherProducts from "./OtherProducts";
+import CustomerReviews from "./CustomerReviews";
+import BlogArticles from "./BlogArticles";
+import SubscribeNewsletter from "./SubscribeNewsletter";
+import ContactUs from "./ContactUs";
 
 
 function HomePage() {
   return (
     <>
       <NavBar />
-      <div className="container-fluid  home-page mb-5">
+      <div className="container-fluid  home-page ">
         <div className="container">
-          <div className="row g-5 align-items-center">
+          <div className="row align-items-center">
             <div className="col-lg-6 text-center text-lg-start">
               <h3 className="fw-light text-white animated slideInRight">
                 Natural & Organic
@@ -47,6 +56,15 @@ function HomePage() {
           </div>
         </div>
       </div>
+      <AboutProduct/>
+      <ProductDeal/>
+      <ProductBenefits/>
+      <HowToUseProduct/>
+      <OtherProducts/>
+      <CustomerReviews/>
+      <BlogArticles/>
+      <SubscribeNewsletter/>
+      <ContactUs/>
     </>
   );
 }

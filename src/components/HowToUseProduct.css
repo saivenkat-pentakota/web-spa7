@@ -1,7 +1,10 @@
-.about-product{
+.how-to-use {
+    position: relative;
     background: url(../images/bg.png) center center no-repeat;
+    background-size: cover;
 }
-.feature-item::before {
+
+.how-to-use::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -12,8 +15,11 @@
     clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
 }
 
-.feature-item .border {
+.how-to-use .container {
     position: relative;
-    border-color: rgba(255, 255, 255, .2) !important;
     z-index: 1;
+}
+
+.how-to-use .border {
+    border-color: rgba(255, 255, 255, .2) !important;
 }

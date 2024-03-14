@@ -1,7 +1,10 @@
-.about-product{
+.deal {
+    position: relative;
     background: url(../images/bg.png) center center no-repeat;
+    background-size: cover;
 }
-.feature-item::before {
+
+.deal::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -12,8 +15,15 @@
     clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
 }
 
-.feature-item .border {
+.deal .bg-white {
     position: relative;
-    border-color: rgba(255, 255, 255, .2) !important;
     z-index: 1;
+}
+
+.deal .cdt span {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    text-transform: capitalize;
 }

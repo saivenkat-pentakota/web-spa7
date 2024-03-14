@@ -9,10 +9,11 @@
     
 }
 
+
 .navbar {
     padding: 11px 0 !important;
     height: 85px;
-    background-color: #90bc79 !important;
+    background: url(../images/bg.png) center center no-repeat;
    
 }
 
